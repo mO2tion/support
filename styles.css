@@ -1,0 +1,123 @@
+/*--------------------------------------------------------------------------------------------- * Copyright (c) Microsoft Corporation. All rights reserved. * Licensed under the MIT License. See License.txt in the project root for license information. *--------------------------------------------------------------------------------------------*/
+
+/* body {
+  font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light",
+    sans-serif, "Droid Sans Fallback";
+  font-size: 14px;
+  padding: 0 12px;
+  line-height: 22px;
+  word-wrap: normal;
+} */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI",
+    "HelveticaNeue-Light", "Ubuntu", "Droid Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a {
+  color: #4080d0;
+  text-decoration: none;
+}
+
+body .nav > h2 > a {
+  font-size: 1.5em;
+  font-weight: normal;
+
+  cursor: none;
+  padding: 5px 10px;
+  margin: 10px;
+  display: block;
+  border-radius: 5px;
+  width: auto;
+}
+body .nav > h2 > a:hover {
+  color: #4080d0;
+}
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 1px solid -webkit-focus-ring-color;
+  outline-offset: -1px;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  padding-bottom: 0.3em;
+  /* line-height: 1.2; */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 2em;
+}
+
+a:hover {
+  color: #4080d0;
+}
+a:focus {
+  color: #4080d0;
+  outline: none;
+}
+a#gototop span {
+  font-weight: normal;
+}
+
+a#gototop {
+  background: #0e2732;
+  text-align: center;
+  width: 149px;
+  height: 149px;
+  border-radius: 50%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  color: white;
+  text-decoration: none;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+}
+
+.accordion .accordion-section a.accordion-section-title {
+  font-size: 1.2em;
+  font-weight: 500;
+
+  color: #000;
+}
+.accordion .accordion-section .accordion-section-content {
+  font-size: 14px;
+  color: #0e2732;
+}
+.accordion .accordion-section .accordion-section-content p span {
+  font-weight: bold;
+  color: #0e2732;
+}
+
+.accordion {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+  padding: 0 25px;
+}
+
+.sub_title {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #0e2732;
+  padding: 10px 0;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px auto 10px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
