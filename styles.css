@@ -8,9 +8,9 @@
   line-height: 22px;
   word-wrap: normal;
 } */
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI",
-    "HelveticaNeue-Light", "Ubuntu", "Droid Sans", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "HelveticaNeue-Light", "Ubuntu", "Droid Sans", sans-serif;
   font-size: 14px;
   line-height: 1.6;
 }
@@ -25,21 +25,21 @@ a {
   text-decoration: none;
 }
 
-body .nav > h2 > a {
-  font-size: 1.5em;
+body .nav>h2>a {
+  font-size: 1em;
   font-weight: normal;
-
-  cursor: none;
+  cursor: pointer;
   padding: 5px 10px;
   margin: 10px;
   display: block;
   border-radius: 5px;
   width: auto;
 }
-body .nav > h2 > a:hover {
+
+body .nav>h2>a:hover {
   color: #4080d0;
-  font-size: 1em;
 }
+
 a:focus,
 input:focus,
 select:focus,
@@ -65,10 +65,12 @@ h1 {
 a:hover {
   color: #4080d0;
 }
+
 a:focus {
   color: #4080d0;
   outline: none;
 }
+
 a#gototop span {
   font-weight: normal;
 }
@@ -94,13 +96,14 @@ a#gototop {
 .accordion .accordion-section a.accordion-section-title {
   font-size: 1.2em;
   font-weight: 500;
-
   color: #000;
 }
+
 .accordion .accordion-section .accordion-section-content {
   font-size: 14px;
   color: #0e2732;
 }
+
 .accordion .accordion-section .accordion-section-content p span {
   font-weight: bold;
   color: #0e2732;
