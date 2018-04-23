@@ -38,6 +38,7 @@ body .nav > h2 > a {
 }
 body .nav > h2 > a:hover {
   color: #4080d0;
+  font-size: 1em;
 }
 a:focus,
 input:focus,
